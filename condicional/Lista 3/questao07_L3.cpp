@@ -20,9 +20,9 @@ int main() {
 
     // verifica se a senha é válida
     if (iSenha == 1234) {
-        cout << "Senha valida." << endl;
+        cout << "ACESSO PERMITIDO" << endl;
     } else {
-        cout << "Senha invalida." << endl;
+        cout << "ACESSO NEGADO" << endl;
     }
 
     system("pause");
